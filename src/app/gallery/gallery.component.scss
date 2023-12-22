@@ -1,0 +1,132 @@
+.gallery-conatiner{
+  padding: 10px;
+  background-color: #F2F6F8;
+  width: 1100px;
+  background-color: #fff;
+  padding: 30px 25px;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 260px 260px 260px; 
+  grid-template-rows: 185px 260px; 
+  gap: 16px; 
+  
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ccc;
+  background: transparent;
+}
+
+/* Large image in the first column */
+.item1 {
+  grid-area: 1 / 1 / 4 / 2;
+  width: 260px;
+  height: 461px;
+ 
+ 
+}
+
+/* Top right image in the second column */
+.item2 {
+  grid-area: 1 / 2 / 2 / 3;
+  width: 260px;
+  height: 185px;
+  
+}
+
+/* Middle right image in the second column */
+.item3 {
+  grid-area: 2 / 2 / 4 / 3;
+  width: 260px;
+  height: 260px;
+
+}
+
+/* Bottom large image spanning the last two columns */
+.item4 {
+  grid-area: 1 / 3 / 4 / 5;
+  width: 474px;
+  height: 461px;
+  position: relative;
+ 
+}
+
+
+
+.view-more-btn {
+  position: absolute;
+  width: 152px;
+  height: 44px;
+  border: 1px solid #FFFFFF;
+  opacity: 1;
+  bottom: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 50;
+}
+
+.arrow{
+  display: inline-block;
+  margin-left: 5px;
+  font-weight: 50;
+  position: absolute;
+  top: 15px;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.nav-conatiner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   /* background-color: #f0f0f0;  */
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 31px; 
+  padding-right: 64px;
+}
+
+.nav-item {
+  color: #004783;
+  font-weight: bold;
+  cursor: pointer;
+  width: 104px;
+  height: 32px;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid #0D67B3;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.nav-item:hover, .nav-item.active {
+  background-color: #0D67B3; 
+  color: #FFFFFF; 
+  border: 1px solid #0D67B3; 
+}
+
+
+span {
+  font-size: 12px;
+  font-weight: 600;
+}

@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background:#F2F6F8;
+    height: 100%;
+    font-family: 'poppins', sans-serif !important;
+}
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 1028px;
+  gap: 82px;
+}
+.body-container{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+}
+.left-side{
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 464px);
+  justify-content: center;
+}
+.about{
+  line-height: 1.2;
+}
+.about-hotels{
+  color: #0D67B3;
+  font-size: 21px;
+}
+.hotel-description{
+  font-size: 42px;
+  color: #004783;
+  font-weight: 700;
+}
+.brief-container{
+  max-width: 523px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.breif{
+  font-size: 16px;
+  color:#004783;
+  max-width: 523px;
+}
+.breif-about{
+  font-size: 14px;
+  color: #004783;
+  max-width: 523px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 225px 225px ; /* Sum of widths plus gap if any */
+    grid-template-rows: 160px 225px ; /* Sum of heights plus gap if any */
+    gap: 16px; /* Adjust the gap between grid items */
+    height: 100%;
+    justify-content: end;
+
+  }
+  
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ccc; /* Placeholder for images */
+  }
+  
+  /* Large image in the first column */
+  .item1 {
+    grid-area: 1 / 1 / 3 ;
+    width: 225px;
+    height: 160px;
+  }
+  .item1 img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Top right image in the second column */
+  .item2 {
+    grid-area: 1 / 2 / 3;
+    width: 225px;
+    height: 160px;
+  }
+  .item2 img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Middle right image in the second column */
+  .item3 {
+    grid-area: 2 / 1 / 3;
+    width: 464px;
+    height: 225px; 
+  }
+  .item3 img{
+    height: 100%;
+    width: 100%;
+  }  
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 81px;
+  border: 1px solid #004884;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+
+}
+.border{
+  border-left:1px solid #004884;
+}
+ .item-container{
+  line-height: 1.2;
+} 
+
+
+ .item-group span{
+   color: #0D67B3;
+   font-size: 16px;
+   height: 100%;
+   
+}
+.item-group{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.item-name{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-name span {
+  color:#004783;
+  font-size: 21px;
+  height: 100%;
+  font-weight: 700;
+}
+.premium-resort{
+    width: 261px;
+    height: 81px;
+    background-color: #218122;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.premium-resort span{
+ color: #F2F6F8;
+ font-size: 18px;
+ text-align: center;
+}
+.item-container1{
+  line-height: 1.2;
+} 

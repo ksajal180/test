@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Quicksand:wght@400;500;600;700&display=swap');
+body{
+    height: 100%;
+    background-color: #F2F6F8;
+    font-family: 'poppins', sans-serif !important;
+}
+.few-policies-body{
+    width: 1175px;
+    height: 648px;
+    background-color: #7298B9;
+    display: flex;
+    flex-direction: column;
+}
+.few-policies-content{
+    height: 100%;
+    width: 1021px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 31px;
+    padding-left: 74px;
+}
+.policies{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+hr {
+    border-top: 0px solid #FFFFFF;
+    width: 100%;
+}
+.few-policies-downpart{
+    max-height: calc(100% - 562.94px)  ;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 29.83px ;
+}
+.few-policies-text{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.policies-text{
+    color: #FFFFFF;
+    font-size: 18px;
+    flex: 1;
+}
+.policies-details{
+    color: #FFFFFF;
+    font-size: 14px;
+    flex: 1;
+}
+.policies-child{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 14px;
+    flex: 1;
+    gap: 10px;
+}

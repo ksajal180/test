@@ -1,0 +1,94 @@
+body {
+    background: #F2F6F8;
+  }
+  
+  .hotel-amenities {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+     width: 1200px;
+   
+  }
+  
+  .amenities-header {
+    text-align: left;
+    color: #0D67B3;
+  }
+  
+  .amenities-header span {
+    font-size: 40px;
+  }
+  
+  .amenities-container {
+    display: flex;
+    justify-content: space-between; /* Adjusted for responsive design */
+    align-items: center;
+    padding: 20px 0; /* Minimal padding for spacing */
+    gap: 10px; /* Gap between amenities */
+  }
+  
+  .amenity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex-grow: 1; /* Allows flexible growth of each amenity */
+  }
+  
+  .amenity:not(:last-child):after {
+    content: '';
+    position: absolute;
+    right: -5.5px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: repeating-linear-gradient(
+      to bottom,
+      #004884,
+      #004884 1px,
+      transparent 1px,
+      transparent 3px
+    );
+  }
+  
+  .amenity img {
+    width: 43px;
+    height: 44px;
+  }
+  
+  .amenity-name {
+    margin-top: 11px;
+    text-align: center;
+    font-size: 14px;
+    color: #004884;
+  }
+  
+  .see-all-container {
+    text-align: center;
+    padding-top: 20px; /* Replaced margin with padding */
+  }
+  
+  .see-all-button {
+    background-color: #0055a5;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+    display: inline-flex; /* For aligning text and arrow icon */
+    align-items: center; /* Aligns the text and arrow vertically */
+  }
+  
+  .see-all-button .arrow {
+    margin-left: 10px; /* Space between text and arrow */
+    width: 17px;
+    height: 9px;
+  }
+  
+  .see-all-button:hover {
+    background-color: #003d73;
+  }
+  
